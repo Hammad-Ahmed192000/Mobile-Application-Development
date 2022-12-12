@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Assignment02</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="chatArray">
+        <item>Chat 1</item>
+        <item>Chat 2</item>
+        <item>Chat 3</item>
+        <item>Chat 4</item>
+        <item>Chat 5</item>
+        <item>Chat 6</item>
+        <item>Chat 7</item>
+        <item>Chat 8</item>
+        <item>Chat 9</item>
+        <item>Chat 10</item>
+    </string-array>
+    <string-array name="StatusArray">
+        <item>Status 1</item>
+        <item>Status 2</item>
+        <item>Status 3</item>
+        <item>Status 4</item>
+        <item>Status 5</item>
+        <item>Status 6</item>
+        <item>Status 7</item>
+        <item>Status 8</item>
+        <item>Status 9</item>
+        <item>Status 10</item>
+    </string-array>
+    <string-array name="callArray">
+        <item>Call 1</item>
+        <item>Call 2</item>
+        <item>Call 3</item>
+        <item>Call 4</item>
+        <item>Call 5</item>
+        <item>Call 6</item>
+        <item>Call 7</item>
+        <item>Call 8</item>
+        <item>Call 9</item>
+        <item>Call 10</item>
+    </string-array>
+</resources>
