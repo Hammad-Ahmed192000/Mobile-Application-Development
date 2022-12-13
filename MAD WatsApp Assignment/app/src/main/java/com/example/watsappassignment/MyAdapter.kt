@@ -10,10 +10,10 @@ class MyAdapter (fm: FragmentManager) : FragmentPagerAdapter(fm) {
     }
     override fun getItem(position: Int): Fragment {
         when(position) {
-            0 ->  return Chat_datail()
-            1 -> return Status_details()
-            2 ->  return Call_details()
-            else -> return Chat_datail()
+            0 ->  return Fragment_Chat_detail()
+            1 -> return Fragment_Status_detail()
+            2 ->  return Fragment_Call_detail()
+            else -> return Fragment_Chat_detail()
         }
     }
 
