@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/nextPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Player 1"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <!-- Tic Tac Toe Grid -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnR0C0"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="btnClick"
+                android:text=""
+                android:textSize="50sp">
+            </Button>
+
+            <Button
+                android:id="@+id/btnR0C1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="btnClick"
+                android:text=""
+                android:textSize="50sp">
+            </Button>
+
+            <Button
+                android:id="@+id/btnR0C2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="btnClick"
+                android:text=""
+                android:textSize="50sp">
+            </Button>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnR1C0"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="btnClick"
+                android:text=""
+                android:textSize="50sp">
+            </Button>
+
+            <Button
+                android:id="@+id/btnR1C1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="btnClick"
+                android:text=""
+                android:textSize="50sp">
+            </Button>
+
+            <Button
+                android:id="@+id/btnR1C2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="btnClick"
+                android:text=""
+                android:textSize="50sp">
+            </Button>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnR2C0"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="btnClick"
+                android:text=""
+                android:textSize="50sp">
+            </Button>
+
+            <Button
+                android:id="@+id/btnR2C1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="btnClick"
+                android:text=""
+                android:textSize="50sp">
+            </Button>
+
+            <Button
+                android:id="@+id/btnR2C2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="btnClick"
+                android:text=""
+                android:textSize="50sp">
+            </Button>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>
