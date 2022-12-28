@@ -1,2 +1,2 @@
 # Mobile-Application-Development
-Lab Tasks and Assignments (BSCS-VII)
+Lab Tasks, Assignments and Semester Project (BSCS-VII, Sec 'A')
